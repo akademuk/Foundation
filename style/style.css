@@ -261,7 +261,7 @@ button {
     background: #0E0E0E;
 }
 
-.banner-img-position img {
+.banner-img-position picture {
     mix-blend-mode: hard-light;
     object-fit: cover;
     object-position: center;
@@ -2088,6 +2088,8 @@ footer .wrapper {
 .copyright-img {
     display: flex;
     align-items: center;
+    width: 220px;
+    justify-content: space-between;
 }
 
 .copyright-img img {
