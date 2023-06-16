@@ -672,14 +672,14 @@
                 <div class="heading">Documents</div>
                 <div class="contents contentsFlex">
                     <div class="heading-img">
-                        <a href="#">
+                        <a href="#" id="heading-img1">
                             <picture>
                                 <source srcset="img/document1.webp" type="image/webp">
                                 <img width="260" height="260" src="img/document1.png" alt="Documents">
                             </picture>
                         </a>
                     </div>
-                    <div class="heading-img">
+                    <div class="heading-img"  id="heading-img2">
                         <a href="#">
                             <picture>
                                 <source srcset="img/document2.webp" type="image/webp">
@@ -687,7 +687,7 @@
                             </picture>
                         </a>
                     </div>
-                    <div class="heading-img">
+                    <div class="heading-img"  id="heading-img3">
                         <a href="#">
                             <picture>
                                 <source srcset="img/document3.webp" type="image/webp">
@@ -695,7 +695,7 @@
                             </picture>
                         </a>
                     </div>
-                    <div class="heading-img">
+                    <div class="heading-img"  id="heading-img4">
                         <a href="#">
                             <picture>
                                 <source srcset="img/document4.webp" type="image/webp">
@@ -1099,6 +1099,28 @@
         });
     </script>
 
+
+<script>
+    let headingImg1 = document.getElementById('heading-img1');
+    let headingImg2 = document.getElementById('heading-img2');
+    let headingImg3 = document.getElementById('heading-img3');
+    let headingImg4 = document.getElementById('heading-img4');
+
+    headingImg1.addEventListener('click', function () {
+        window.open('statut.pdf', '_blank');
+    });
+    headingImg2.addEventListener('click', function () {
+        window.open('statement-1.pdf', '_blank');
+    });
+    headingImg3.addEventListener('click', function () {
+        window.open('statement.pdf', '_blank');
+    });
+    headingImg4.addEventListener('click', function () {
+        window.open('excerpt.pdf', '_blank');
+    });
+
+</script>
+
 <script>
 $(document).ready(function() {
   $(".accordion").on("click", ".heading", function() {
@@ -1128,6 +1150,29 @@ $(document).ready(function() {
 
 </script>
 
+
+
+<script>
+
+$(document).ready(function () {
+            // При клике на ссылку с якорем
+            $('a[href^="#"]').on('click', function (event) {
+                // Отменяем стандартное поведение ссылки
+                event.preventDefault();
+
+                // Получаем целевой якорь
+                var target = $(this.hash);
+
+                // Проверяем, что целевой якорь существует на странице
+                if (target.length) {
+                    // Анимированная прокрутка до целевого якоря
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 800); // Здесь можно настроить скорость анимации
+                }
+            });
+        });
+</script>
 <script>
     window.addEventListener('load', function() {
     var element = document.getElementById('opacity');
