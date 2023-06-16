@@ -2260,7 +2260,9 @@ body.fancybox-active {
     margin-right: 17px;
 }
 
-
+.menuContentNav-img img {
+    height: 100%;
+}
 
 
 
@@ -3169,10 +3171,11 @@ margin-bottom: 24px;
     }
     .modal-farmer-text {
         padding-right: 12px;
+        padding-bottom: 20px;
     }
     .menu {
         width: 288px;
-        padding: 82px 16px 32px 16px;
+        padding: 82px 16px 82px 16px;
         max-height: 100%;
         box-sizing: border-box;
         overflow: scroll;
@@ -3277,9 +3280,7 @@ margin-bottom: 24px;
         width: 100%;
         margin-bottom: 66px;
     }
-    .step-container li:nth-last-of-type(1) {
-        margin-bottom: 0;
-    }
+
     .help-postion h2 {
         font-size: 25px;
         line-height: 150%;
@@ -3419,19 +3420,15 @@ margin-bottom: 24px;
     .rip-header {
         flex-direction: column;
     }
-    .step-btn {
-        margin-top: -15px;
-    }
     .step-container li::after {
-        right: 42%;
+        right: 45%;
         transform: translateX(-50%) rotate(90deg);
         top: 90px;
     }
     .step-container {
         flex-direction: column;
+        align-items: center;
         height: 100%;
-        margin-top: -14px;
-        margin-left: 16px;
     }
     .help-container {
         filter: blur(0);
@@ -3451,6 +3448,46 @@ margin-bottom: 24px;
     .btn-donate {
         margin-left: inherit;
         margin-right: 0;
+    }
+    .banner-img-position img {
+        object-fit: cover;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+    }
+    .about-logo {
+        align-items: center;
+    }
+    .about-logo img {
+        height: 100%;
+    }
+    .about-logo2 {
+        display: flex;
+        align-items: center;
+    }
+    .problems-right-img {
+        display: none;
+    }
+    .about-logo2 img {
+        height: 100%;
+    }
+    .about-item img {
+        height: 100%;
+    }
+    .step-container {
+        padding-top: 23px;
+        margin-bottom: 15px;
+    }
+    .step-container li span{
+        margin-right:  0 !important;
+    }
+    .step-container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .step-container li:nth-of-type(3) {
+        margin-right: 0;
+        margin-bottom: 0;
     }
 }  
 /* //max-width: 576px */  
