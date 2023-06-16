@@ -2979,8 +2979,9 @@ margin-bottom: 24px;
     }
     .help-postion {
         width: 70%;
-        height: 50%;
+        height: 80%;
         top: 50%;
+        object-fit: contain;
     }
     .help-postion h2 {
         margin-top: -44px;
