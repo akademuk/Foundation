@@ -1676,6 +1676,8 @@ canvas {
     display: flex;
     padding: 24px 16px;
     box-sizing: border-box;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .founders-right {
@@ -1683,6 +1685,13 @@ canvas {
     display: flex;
     padding: 24px 16px;
     box-sizing: border-box;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.founders-left:hover,
+.founders-right:hover {
+    background: #363942;
+    transition: all 0.5s;
 }
 
 .founders-left-img {
@@ -2342,8 +2351,27 @@ body.fancybox-active {
 
 
 
-
 /* responsive  */
+
+@media  (min-width: 1920px) {  
+    .banner-img-position picture img {
+        width: 100%;
+    }
+    .rip-position picture  {
+        width: 100%;
+    }
+    .rip-position picture img {
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+    .map iframe {
+        width: 100%;
+    }
+} 
+
+
+
 @media  (max-width: 1600px) {  
     .problems-img3.animation-active3 {
         display: none;
