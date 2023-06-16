@@ -100,6 +100,10 @@ button {
 .banner-center-content span {
     margin-top: 12px;
     display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
 }
 
 .banner-center-content a::after {
@@ -272,7 +276,7 @@ button {
 }
 
 .problems {
-    padding: 139px 0px 64px 0;
+    padding: 139px 0px 125px 0;
     box-sizing: border-box;
     background: #0E0E0E;
     position: relative;
@@ -313,7 +317,7 @@ button {
     height: 1000px;
     position: absolute;
     left: 0;
-    top: 175px;
+    top: 202px;
     transition: all 3s;
 }
 
@@ -322,7 +326,7 @@ button {
     height: 1000px;
     position: absolute;
     left: 687px;
-    top: 175px;
+    top: 202px;
     transition: all 3s;
 }
 
@@ -331,7 +335,7 @@ button {
     height: 1000px;
     position: absolute;
     right: 0;
-    top: 175px;
+    top: 202px;
     transition: all 3s;
 }
 
@@ -357,7 +361,7 @@ button {
 
 .problems-right {
     max-width: 356px;
-    margin-top: 129px;
+    margin-top: 189px;
 }
 
 .problems-container h2 {
@@ -1740,7 +1744,9 @@ canvas {
     text-overflow: ellipsis;
     margin-bottom: 35px;
 }
-
+.founders-text2 {
+    -webkit-line-clamp: 5; 
+}
 .successes {
     padding: 128px 0;
     background: #141924;
@@ -1750,18 +1756,20 @@ canvas {
 .successes .wrapper {
     max-width: 1116px;
     margin: 0 auto;
+    height: 594px;
     display: flex;
 }
 
 .successes-left {
     width: 546px;
-    height: 549px;
+    height: 100%;
     margin-right: 120px;
 }
 
 .successes-left img {
     max-width: 100%;
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -1825,7 +1833,7 @@ canvas {
     font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
-    margin-top: 16px;
+    margin-top: 40px;
 }
 
 .questions {
@@ -1895,7 +1903,7 @@ canvas {
 
 .contents {
     display: none;
-    padding-top: 16px;
+    padding-top: 30px;
     font-weight: 300;
     font-size: 16px;
     line-height: 150%;
@@ -2098,7 +2106,7 @@ footer .wrapper {
 .copyright-img {
     display: flex;
     align-items: center;
-    width: 220px;
+    width: 250px;
     justify-content: space-between;
 }
 
@@ -2295,7 +2303,9 @@ body.fancybox-active {
     margin-left: auto;
     margin-bottom: 30px;
 }
-
+.problems-text-text {
+    color: #B0B0B0;
+}
 use {
     width: 1180px;
     height: 800px;
@@ -3462,6 +3472,27 @@ use {
     .menuContentNav {
         width: 100%;
     }
+    .banner-img-position img {
+        object-fit: cover;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+    }
+    .progress {
+        width: 60px;
+        height: 60px;
+        border: 3px solid #B90000;
+        font-size: 19.5px;
+        line-height: 120%;
+    }
+    .about-logo2 {
+        display: flex;
+        align-items: center;
+    }
+    .about-logo2 img {
+        height: 100%;
+    }
+
 }
 
 /* //max-width: 1200px */
@@ -3526,6 +3557,17 @@ use {
     .about-logo2 {
         margin-bottom: 17px;
     }
+    .step-container li:nth-of-type(3) {
+        margin-right: 0;
+    }
+    .about-logo {
+        align-items: center;
+    }
+
+    .about-logo img {
+        height: 100%;
+    }
+
 }
 
 /* //max-width: 767px */
@@ -3788,17 +3830,9 @@ use {
         height: 100%;
     }
 
-    .about-logo2 {
-        display: flex;
-        align-items: center;
-    }
 
     .problems-right-img {
         display: none;
-    }
-
-    .about-logo2 img {
-        height: 100%;
     }
 
     .about-item img {
