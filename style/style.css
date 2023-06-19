@@ -631,8 +631,9 @@ canvas {
 
 .modal-farmer {
     width: 1116px;
-    height: 750px;
+    height: 100vh;
     background: #0E0E0E;
+    overflow: hidden;
 }
 
 .modal-farmer-flex {
@@ -676,7 +677,7 @@ canvas {
 }
 
 .modal-farmer-overflow {
-    max-height: 432px;
+    max-height: 100vh;
     overflow: hidden;
     height: 100%;
 }
@@ -684,6 +685,8 @@ canvas {
 .modal-farmer-overflow-scroll {
     height: 100%;
     overflow-y: auto;
+    padding-bottom: 200px;
+    box-sizing: border-box;
 }
 .closeMe {
     position: absolute;
@@ -3407,7 +3410,7 @@ body.fancybox-active {
 
     .modal-farmer {
         width: 288px;
-        height: 812px;
+        height: 100vh;
     }
 
     .fancybox-slide {
@@ -3415,6 +3418,7 @@ body.fancybox-active {
         justify-content: flex-end;
         padding-right: 0;
         padding-top: 0;
+        overflow: hidden;
     }
 
     .modal-farmer-overflow-scroll h3 {
@@ -3435,7 +3439,7 @@ body.fancybox-active {
     }
 
     .modal-farmer-overflow {
-        max-height: 640px;
+        max-height: 100vh;
     }
 
     .modal-farmer-left {
