@@ -630,7 +630,7 @@ canvas {
 
 .modal-farmer {
     width: 1116px;
-    height: 100vh;
+    height: 750px;
     background: #0E0E0E;
     overflow: hidden;
 }
@@ -676,7 +676,7 @@ canvas {
 }
 
 .modal-farmer-overflow {
-    max-height: 100vh;
+    max-height: 432px;
     overflow: hidden;
     height: 100%;
 }
@@ -684,7 +684,6 @@ canvas {
 .modal-farmer-overflow-scroll {
     height: 100%;
     overflow-y: auto;
-    padding-bottom: 200px;
     box-sizing: border-box;
 }
 .closeMe {
@@ -2333,7 +2332,12 @@ body.fancybox-active {
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  
+  .FoundersPad {
+    padding-top: 106px;
+  }
+  .FoundersPad h2{
+    margin-bottom: 103px;
+  }
 
 
 
@@ -3522,6 +3526,9 @@ body.fancybox-active {
         background-repeat: no-repeat;
         background-size: 80%;
         background-position: 52% 40%;
+    }
+    .modal-farmer-overflow {
+        padding-bottom: 200px;
     }
 }
 

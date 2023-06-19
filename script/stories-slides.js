@@ -5,7 +5,7 @@ $(document).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: true,
-        infinite: false,
+        infinite: true,
         prevArrow: '.stories-navigation-prev',
         nextArrow: '.stories-navigation-next',
         variableWidth: true,
