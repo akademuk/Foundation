@@ -683,7 +683,15 @@ canvas {
 
 .modal-farmer-overflow-scroll {
     height: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
+}
+.closeMe {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: transparent;
+    border: none;
+    z-index: 222;
 }
 
 .modal-farmer-overflow-scroll h3 {
