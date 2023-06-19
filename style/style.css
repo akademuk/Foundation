@@ -543,7 +543,7 @@ button {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-box-orient: vertical;
-    height: 80px;
+    height: 75px;
     overflow: hidden;
 }
 
