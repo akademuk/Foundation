@@ -2158,6 +2158,9 @@ footer .wrapper {
     background: black;
     padding: 224px 0 226px 0;
     box-sizing: border-box;
+    height: 100vh;
+    max-height: 100vh;
+    transform: translateY(-100%);
 }
 
 .body.active {
@@ -2167,6 +2170,7 @@ footer .wrapper {
 .menu.open_menu {
     right: 0;
     z-index: 100;
+    transform: translateY(0);
 }
 
 .body {
@@ -3462,7 +3466,7 @@ body.fancybox-active {
 
     .menu {
         width: 288px;
-        padding: 82px 16px 82px 16px;
+        padding: 82px 16px 16px 16px;
         max-height: 100%;
         box-sizing: border-box;
         overflow: scroll;
