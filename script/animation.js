@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', function () {
             problemsImg3.classList.add('animation-active3');
         } else {
             // Удалите классы из блоков
-            var problemsImg1 = document.getElementById('animation-active1');
-            var problemsImg2 = document.getElementById('animation-active2');
-            var problemsImg3 = document.getElementById('animation-active3');
+            var problemsImg1 = document.getElementById('problems-img1');
+            var problemsImg2 = document.getElementById('problems-img2');
+            var problemsImg3 = document.getElementById('problems-img3');
 
             problemsImg1.classList.remove('animation-active1');
             problemsImg2.classList.remove('animation-active2');

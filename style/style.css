@@ -453,6 +453,7 @@ button {
     border: 2px solid #4B4B4B;
     border-radius: 73px;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .stories-navigation-next {
@@ -464,6 +465,7 @@ button {
     transform: rotate(180deg);
     border: 2px solid #4B4B4B;
     border-radius: 73px;
+    cursor: pointer;
     transition: all 0.5s;
 }
 
@@ -943,22 +945,24 @@ canvas {
     padding: 24px 32px;
     width: 215px;
     height: 72px;
-    background: url(../img/icon9.svg), #FFFFFF;
+    background: url(../img/icon1.svg), #B90000;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 161px center;
     border-radius: 50px;
     border: none;
     margin: 0 auto;
+    color: #FFFFFF;
     transition: all 0.5s;
 }
 
 .step-btn:hover {
-    background: url(../img/icon9.svg), #C6C6C6;
+    background: url(../img/icon9.svg), #FFFFFF;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 161px center;
     transition: all 0.5s;
+    color: #0E0E0E;
 }
 
 .step-btn:active {
@@ -1453,6 +1457,7 @@ canvas {
     line-height: 100%;
     color: #363942;
     margin-bottom: 16px;
+    text-transform: uppercase;
 }
 
 .about-main-container-text {
@@ -1469,7 +1474,7 @@ canvas {
     align-items: center;
     width: 227px;
     height: 52px;
-    background: url(../img/arrow-btn.svg), #BDA295;
+    background: url(../img/arrow-btn.svg), #B90000;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 190px center;
@@ -1485,11 +1490,12 @@ canvas {
 }
 
 .about-main-container a:hover {
-    background: url(../img/arrow-btn.svg), #705A4E;
+    background: url(../img/arrowRightBlack.svg), #FFFFFF;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 190px center;
     transition: all 0.5s;
+    color: #0E0E0E;
 }
 
 .about-main-container a:active {
@@ -1498,6 +1504,7 @@ canvas {
     background-size: auto;
     background-position: 190px center;
     transition: all 0.5s;
+    color: #FFFFFF;
 }
 
 .about-main {
@@ -1595,7 +1602,7 @@ canvas {
     align-items: center;
     width: 151px;
     height: 52px;
-    background: url(../img/arrow-btn.svg), #BDA295;
+    background: url(../img/arrow-btn.svg), #B90000;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 117px center;
@@ -1611,11 +1618,12 @@ canvas {
 }
 
 .input-btn:hover {
-    background: url(../img/arrow-btn.svg), #705A4E;
+    background: url(../img/arrowRightBlack.svg), #FFFFFF;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 117px center;
     transition: all 0.5s;
+    color: #0E0E0E;
 }
 
 .input-btn:active {
@@ -1624,6 +1632,7 @@ canvas {
     background-size: auto;
     background-position: 117px center;
     transition: all 0.5s;
+    color: #FFFFFF;
 }
 
 .about-item {
@@ -2051,21 +2060,22 @@ footer .wrapper {
     font-weight: 400;
     font-size: 13px;
     line-height: 150%;
-    color: #0E0E0E;
     border: none;
-    background: url(../img/icon9.svg), #FFFFFF;
+    background: url(../img/icon1.svg),#B90000;
     background-repeat: no-repeat;
     background-size: auto;
+    color: #FFFFFF;
     background-position: 120px center;
     transition: all 0.5s;
 }
 
 .footer-btn:hover {
-    background: url(../img/icon9.svg), #C6C6C6;
+    background: url(../img/icon9.svg), #FFFFFF;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 120px center;
     transition: all 0.5s;
+    color: #0E0E0E;
 }
 
 .footer-btn:active {
@@ -2081,7 +2091,7 @@ footer .wrapper {
     font-weight: 300;
     font-size: 16px;
     line-height: 150%;
-    color: #5A5E6B;
+    color: #868686;
     max-width: 733px;
     text-align: center;
     margin: 64px auto 0 auto;
